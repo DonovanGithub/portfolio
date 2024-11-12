@@ -1,0 +1,35 @@
+.booky-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.booky-container img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 800px;
+  max-height: 1000px;
+}
+.booky-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.booky-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  justify-content: center;
+  text-decoration: underline;
+}
+.booky-explanation {
+  background-color: #d3d3d3;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px 30px 15px 30px;
+}
+.booky-image {
+  display: flex;
+  flex-direction: row;
+}

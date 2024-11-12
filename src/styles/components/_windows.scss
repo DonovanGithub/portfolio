@@ -1,0 +1,100 @@
+.windows-center {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+}
+.windows-img-box {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #ff6f61;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+img {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  max-height: 270px;
+  max-width: 300px;
+}
+.box-windows {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  animation-name: enter;
+  animation-duration: 1400ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.arrow-svg {
+  display: flex;
+  position: absolute;
+
+  bottom: 0;
+  left: 47%;
+  width: 30px;
+}
+@keyframes enter {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.booky:hover {
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  opacity: 1;
+  animation-iteration-count: 1;
+  animation-name: hover;
+  animation-duration: 1400ms;
+  animation-fill-mode: forwards;
+}
+.ohmyfood:hover {
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  opacity: 1;
+  animation-name: hover;
+  animation-duration: 1400ms;
+  animation-fill-mode: forwards;
+}
+.kanap:hover {
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  opacity: 1;
+  animation-iteration-count: 1;
+  animation-name: hover;
+  animation-duration: 1400ms;
+  animation-fill-mode: forwards;
+}
+.kasa:hover {
+  filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
+  opacity: 1;
+  animation-name: hover;
+  animation-duration: 1400ms;
+  animation-fill-mode: forwards;
+}
+@keyframes hover {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
