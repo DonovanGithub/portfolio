@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <section className="header-container">
-        <NavLink to="/">
+        <NavLink to="/portfolio">
           <img
             className="navigation-svg"
             src={navigationsvg}
