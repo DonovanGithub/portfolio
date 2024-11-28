@@ -33,3 +33,14 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 767px) {
+  .booky-title {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .ohmyfood-screenshot img {
+    width: 420px;
+    height: 600px;
+  }
+}
